@@ -11,8 +11,9 @@ import android.view.MenuItem;
 import com.android.app.dengzhaojun.R;
 import com.android.app.dengzhaojun.fragment.Main_One_Activity;
 import com.android.app.dengzhaojun.fragment.Main_Three_Activity;
-import com.android.app.dengzhaojun.fragment.Main_Two_Activity;
-import com.android.app.dengzhaojun.fragment.SlideFragment;
+
+import com.android.app.dengzhaojun.inspiring.vie.Inspiring_Activity;
+import com.android.app.mvp.v.Test_Activity;
 import com.umeng.analytics.MobclickAgent;
 
 
@@ -20,7 +21,7 @@ public class MainActivity extends FragmentActivity {
 
 
     private Main_One_Activity fragment1;
-    private SlideFragment fragment2;
+    private Inspiring_Activity fragment2;
     private Main_Three_Activity fragment3;
     private Fragment[] fragments;
     private int lastShowFragment = 0;
@@ -83,7 +84,7 @@ public class MainActivity extends FragmentActivity {
 
     private void initFragments() {
         fragment1 = new Main_One_Activity();
-        fragment2 = new SlideFragment();
+        fragment2 = new Inspiring_Activity();
         fragment3 = new Main_Three_Activity();
         fragments = new Fragment[]{fragment1, fragment2, fragment3};
         lastShowFragment = 0;

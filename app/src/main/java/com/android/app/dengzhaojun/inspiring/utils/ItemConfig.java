@@ -1,4 +1,4 @@
-package com.android.app.dengzhaojun.utils;
+package com.android.app.dengzhaojun.inspiring.utils;
 
 /**
  * Created by 钉某人

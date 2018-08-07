@@ -1,4 +1,4 @@
-package com.android.app.dengzhaojun.utils;
+package com.android.app.dengzhaojun.inspiring.utils;
 
 import android.support.annotation.NonNull;
 import android.support.v4.view.MotionEventCompat;

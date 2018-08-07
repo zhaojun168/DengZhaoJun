@@ -1,4 +1,4 @@
-package com.android.app.dengzhaojun.utils;
+package com.android.app.dengzhaojun.inspiring.utils;
 
 import android.graphics.Canvas;
 import android.support.annotation.NonNull;

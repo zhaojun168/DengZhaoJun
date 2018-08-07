@@ -33,15 +33,15 @@ public class Main_Three_Activity extends Fragment {
 	@Override
 	public void onResume() {
 		super.onResume();
-		MobclickAgent.onResume(mContext);
-		MobclickAgent.onPageStart("Main_Two_Activity");
+		MobclickAgent.onPause(mContext);
+		MobclickAgent.onPageStart("Main_Three_Activity");
 	}
 
 	@Override
 	public void onPause() {
 		super.onPause();
 		MobclickAgent.onPause(mContext);
-		MobclickAgent.onPageEnd("Main_Two_Activity");
+		MobclickAgent.onPageEnd("Main_Three_Activity");
 	}
 	
 
