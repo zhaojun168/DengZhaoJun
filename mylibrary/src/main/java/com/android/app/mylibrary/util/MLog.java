@@ -4,7 +4,7 @@ import android.util.Log;
 
 public class MLog {
 
-	private static final boolean ENABLE = false;// 日志开关，true为可输出，false为关闭
+	private static final boolean ENABLE = true;// 日志开关，true为可输出，false为关闭
 	/** 是否允许输出信息到LogCat */
 	private static final boolean IsShowToLogCat = true;
 	
